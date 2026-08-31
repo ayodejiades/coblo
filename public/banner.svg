@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=JetBrains+Mono:wght@700;800&amp;family=Space+Grotesk:wght@600;700&amp;display=swap');
+      .font-display { font-family: 'Archivo Black', 'Arial Black', Impact, sans-serif; font-weight: 900; }
+      .font-mono { font-family: 'JetBrains Mono', monospace; font-weight: 800; }
+      .font-sans { font-family: 'Space Grotesk', sans-serif; font-weight: 700; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="520" fill="#000000"/>
+
+  <!-- Main Card Shadow -->
+  <rect x="24" y="24" width="1160" height="480" fill="#000000"/>
+
+  <!-- Main Card Body -->
+  <rect x="16" y="16" width="1160" height="480" fill="#F5F2E8" stroke="#000000" stroke-width="6"/>
+
+  <!-- Top Strip / Marquee Style Header -->
+  <rect x="16" y="16" width="1160" height="52" fill="#000000"/>
+  
+  <text x="40" y="48" fill="#CCFF00" class="font-mono" font-size="16" letter-spacing="2">
+    COBLO · URBAN HEAT AUDIT &amp; CANOPY SIMULATOR
+  </text>
+  
+  <!-- Top Right Badge -->
+  <rect x="910" y="24" width="250" height="34" fill="#FF2E93" stroke="#000000" stroke-width="3"/>
+  <text x="1035" y="46" fill="#000000" class="font-mono" font-size="13" font-weight="900" text-anchor="middle" letter-spacing="1">
+    EARTH FORWARD 2026
+  </text>
+
+  <!-- Center Graphic: Brutalist Tree Icon Box -->
+  <g transform="translate(560, 95)">
+    <!-- Hard shadow -->
+    <rect x="6" y="6" width="80" height="80" fill="#000000"/>
+    <!-- Box -->
+    <rect x="0" y="0" width="80" height="80" fill="#CCFF00" stroke="#000000" stroke-width="4"/>
+    <!-- Tree Trunk -->
+    <rect x="36" y="48" width="8" height="20" fill="#000000"/>
+    <!-- Tree Canopy Layers (Geometric) -->
+    <polygon points="40,16 64,38 16,38" fill="#000000"/>
+    <polygon points="40,28 68,50 12,50" fill="#000000"/>
+  </g>
+
+  <!-- Core Headline -->
+  <g transform="translate(600, 240)" text-anchor="middle">
+    <!-- Highlight Block behind HEAT -->
+    <rect x="-38" y="-48" width="460" height="58" fill="#FF2E93" stroke="#000000" stroke-width="4"/>
+    
+    <text x="0" y="-6" fill="#000000" class="font-display" font-size="52" letter-spacing="-1">
+      GRADE YOUR <tspan fill="#000000">STREET&apos;S HEAT.</tspan>
+    </text>
+    
+    <text x="0" y="62" fill="#000000" class="font-display" font-size="52" letter-spacing="-1">
+      GET A PLAN TO COOL IT.
+    </text>
+  </g>
+
+  <!-- Subtitle / Value Proposition Pill -->
+  <g transform="translate(600, 360)">
+    <rect x="-420" y="0" width="840" height="42" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <text x="0" y="26" fill="#000000" class="font-mono" font-size="14" font-weight="800" text-anchor="middle" letter-spacing="1">
+      ON-DEVICE SEGFORMER · 0 BYTES UPLOADED · °C HEAT UPLIFT · LIVE CANOPY SIMULATOR
+    </text>
+  </g>
+
+  <!-- Bottom Metadata Strip -->
+  <line x1="16" y1="440" x2="1176" y2="440" stroke="#000000" stroke-width="4"/>
+  
+  <rect x="16" y="440" width="1160" height="56" fill="#000000"/>
+
+  <text x="40" y="475" fill="#F5F2E8" class="font-mono" font-size="13" letter-spacing="1.5">
+    GITHUB.COM/AYODEJIADES/COBLO
+  </text>
+
+  <g transform="translate(1140, 475)" text-anchor="end">
+    <text fill="#00D4FF" class="font-mono" font-size="13" letter-spacing="1.5">
+      NEXTSTEP HACKS · TRACK 1: EARTH FORWARD · OPEN SOURCE
+    </text>
+  </g>
+</svg>

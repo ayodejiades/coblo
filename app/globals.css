@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=JetBrains+Mono:wght@400;700;800&family=Space+Grotesk:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #000000;
+  --color-paper: #F5F2E8;
+  --color-surface: #FFFFFF;
+  --color-acid: #CCFF00;
+  --color-hot: #FF2E93;
+  --color-cyan: #00D4FF;
+  --color-violet: #B14EFF;
+  --color-orange: #FF6B1A;
+  --color-grey: #D9D6CC;
+
+  --color-seg-canopy: #00E676;
+  --color-seg-lowgreen: #CCFF00;
+  --color-seg-paved: #FF2E93;
+  --color-seg-built: #B14EFF;
+  --color-seg-sky: #00D4FF;
+  --color-seg-water: #0066FF;
+  --color-seg-bare: #FF6B1A;
+  --color-seg-transient: #D9D6CC;
+
+  --font-display: "Archivo Black", "Arial Black", Impact, sans-serif;
+  --font-body: "Space Grotesk", Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+
+  --shadow-brut: 4px 4px 0px 0px #000;
+  --shadow-brut-lg: 8px 8px 0px 0px #000;
+  --shadow-brut-xl: 12px 12px 0px 0px #000;
+  --shadow-brut-press: 2px 2px 0px 0px #000;
+
+  --radius-brut: 0px;
+}
+
+:root {
+  color-scheme: light;
+  --cb-hazard: repeating-linear-gradient(45deg, #000000 0 12px, #CCFF00 12px 24px);
+  --cb-dots: radial-gradient(#000000 1.5px, transparent 1.5px) 0 0 / 16px 16px;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #F5F2E8;
+  color: #000000;
+  font-family: "Space Grotesk", Inter, system-ui, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Archivo Black", "Arial Black", Impact, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}

@@ -1,0 +1,34 @@
+# --------------------------------------------------
+# STRICT DEFAULT-IGNORE WHITELIST FOR COBLO REPOSITORY
+# --------------------------------------------------
+
+# 1. Ignore everything by default (root and all subtrees)
+/*
+
+# 2. Whitelist project source code directories
+!/app/
+!/app/**
+!/components/
+!/components/**
+!/lib/
+!/lib/**
+!/types/
+!/types/**
+!/workers/
+!/workers/**
+!/public/
+!/public/**
+!/scripts/
+!/scripts/**
+
+# 3. Whitelist root configuration and metadata files
+!.gitignore
+!.env.example
+!package.json
+!package-lock.json
+!tsconfig.json
+!next.config.ts
+!postcss.config.mjs
+
+# 4. Whitelist root submission documentation
+!README.md
