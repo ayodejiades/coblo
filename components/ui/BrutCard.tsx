@@ -55,7 +55,10 @@ export const BrutCard: React.FC<BrutCardProps> = ({
             accentStyles[headerAccent]
           )}
         >
-          <div className="flex items-center gap-2 font-bold min-w-0 truncate">{title}</div>
+          {/* Wraps rather than truncates: at the report's stat-card width the
+              header box is ~151px while "EST. SURFACE UPLIFT" needs ~192px, so
+              ellipsising silently ate the end of the two headline metrics. */}
+          <div className="flex items-center gap-2 font-bold min-w-0 leading-tight">{title}</div>
           {subtitle && <div className="text-[0.7rem] sm:text-xs opacity-90 shrink-0">{subtitle}</div>}
         </div>
       )}
